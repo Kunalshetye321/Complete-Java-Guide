@@ -38,3 +38,6 @@ flowchart TD
     A --> |Executable|C[MacOS]
     A --> |Executable|D[Linux]
 ```
+
+### 📝Why Java is platform independent? <br>
+➡️ Because Java source code is converted into bytecode which can be easily be executable in any platform using jvm
