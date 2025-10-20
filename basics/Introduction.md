@@ -4,7 +4,7 @@
 🔹 Programming language is used to communicate with machines.
 
 ```mermaid
-flowchart pL
+flowchart TD
     A[Programming language] --> B[Low-level language]
     A --> C[High Level Language]
 ```
@@ -22,7 +22,7 @@ flowchart pL
 🔹If we write a program using one platform an it is executable in same platform is known as platform dependent language. <br>
 ⚡Eg. C language
 ```mermaid
-flowchart PD
+flowchart TD
     A[Windows] --> B[Windows]
     A --> |Not Executable|C[MacOS]
     A --> |Not Executable|D[Linux]
@@ -33,7 +33,7 @@ flowchart PD
 ⚡Eg. Java <br>
 🔸Java is executable in windows, macOS and even Linux
 ```mermaid
-flowchart PD
+flowchart TD
     A[Windows] --> B[Windows]
     A --> |Not Executable|C[MacOS]
     A --> |Not Executable|D[Linux]
