@@ -23,7 +23,7 @@ flowchart TD
 ⚡Eg. C language
 ```mermaid
 flowchart TD
-    A[Windows] --> B[Windows]
+    A[Windows] --> |Executable|B[Windows]
     A --> |Not Executable|C[MacOS]
     A --> |Not Executable|D[Linux]
 ```
@@ -34,7 +34,7 @@ flowchart TD
 🔸Java is executable in windows, macOS and even Linux
 ```mermaid
 flowchart TD
-    A[Windows] --> B[Windows]
-    A --> |Not Executable|C[MacOS]
-    A --> |Not Executable|D[Linux]
+    A[Windows] --> |Executable|B[Windows]
+    A --> |Executable|C[MacOS]
+    A --> |Executable|D[Linux]
 ```
